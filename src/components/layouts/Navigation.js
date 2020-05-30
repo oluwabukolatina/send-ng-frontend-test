@@ -32,7 +32,8 @@ const Navigation = () => {
     </Nav.Item>
     <Nav.Item>
                     {/* <Nav.Link eventKey="link-1">Link</Nav.Link> */}
-                    <Button style={{backgroundColor:'#ff5a5a', border: 'none'}}>Request</Button>
+                    <Button style={{backgroundColor:'#ff5a5a', border: 'none',     marginLeft: '2px',
+    marginRight: '10px'}}>Request</Button>
                     
     </Nav.Item>
                 <Nav.Item>
