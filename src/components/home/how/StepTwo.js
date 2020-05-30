@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepOneContainer } from '../../styles/styled/StepsStyles';
+import { StepOneContainer } from '../../../styles/styled/StepsStyles';
 
 const StepTwo = () => {
     return (
@@ -10,7 +10,7 @@ const StepTwo = () => {
                     Step Two
             </h5>
                     {/* </p> */}
-                 
+
                 <h1 className="post-heading">
                 Match with suppliers you can trust
 
@@ -21,7 +21,7 @@ const StepTwo = () => {
                 </div>
             <div className="step-two-request">
                 <img className="step-two-request-image" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5ea47d5b808bdf5ef78c4308_supplier_simple.svg"/>
-                 
+
         </div>
         </StepOneContainer>
     )

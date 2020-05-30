@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutUsContainer } from '../styles/styled/AboutUsStyles';
+import { AboutUsContainer } from '../../styles/styled/AboutUsStyles';
 
 const AboutUs = () => {
   return (

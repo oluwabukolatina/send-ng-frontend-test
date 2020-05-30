@@ -1,5 +1,5 @@
 import React from 'react';
-import { GetInvolvedContainer } from '../styles/styled/GetInvolvedStyles';
+import { GetInvolvedContainer } from '../../styles/styled/GetInvolvedStyles';
 
 const GetInvolved = () => {
   return (

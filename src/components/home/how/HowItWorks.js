@@ -2,12 +2,11 @@ import React from 'react';
 import {
   HowItWorksContainer,
   HowRequestButtonStyles,
-} from '../../styles/styled/HowItWorksStyles';
+} from '../../../styles/styled/HowItWorksStyles';
 import StepOne from './StepOne';
 import StepTwo from './StepTwo';
 import StepFour from './StepFour';
 import StepThree from './StepThree';
-import { RequestButtonStyles } from '../../styles/styled/ProcurementStyles';
 
 const HowItWorks = () => {
   return (

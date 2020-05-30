@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigation from './layouts/Navigation';
-import Cta from './Cta';
-import HaveSupplies from './HaveSupplies';
-import Partners from './Partners';
-import Millions from './millions/Millions';
-import HowItWorks from './how/HowItWorks';
-import AboutUs from './AboutUs';
-import GetInvolved from './GetInvolved';
+import Cta from './home/Cta';
+import HaveSupplies from './home/HaveSupplies';
+import Partners from './home/Partners';
+import Millions from './home/millions/Millions';
+import HowItWorks from './home/how/HowItWorks';
+import AboutUs from './home/AboutUs';
+import GetInvolved from './home/GetInvolved';
 import Footer from './layouts/Footer';
 import '../styles/App.css';
 

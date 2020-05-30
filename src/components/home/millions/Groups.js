@@ -1,5 +1,5 @@
 import React from 'react';
-import { GroupsContainerStyles, GroupImageStyles } from '../../styles/styled/GroupsStyles';
+import { GroupsContainerStyles, GroupImageStyles } from '../../../styles/styled/GroupsStyles';
 
 const Groups = () => {
     return (
@@ -9,17 +9,17 @@ const Groups = () => {
                     src="
                     https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9da596b99e412007923c2e_N95.svg
                     "
-                
+
                 />
                 <p>Respirator</p>
             </div>
 
-            
 
-           
 
-            
-            
+
+
+
+
             <div className="group-item-container">
                 <GroupImageStyles
                   src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9d685e38205a2f86da9be8_Glove.svg"
@@ -47,7 +47,7 @@ const Groups = () => {
                 />
                 <p>Ventilators</p>
             </div>
-            
+
             <div className="group-item-container">
                 <GroupImageStyles
                   src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9d685ee014f924d6aad1b6_SurgicalMask.svg"
@@ -68,9 +68,9 @@ const Groups = () => {
                 />
                 <p>Gowns</p>
             </div>
-            
 
-       
+
+
         </GroupsContainerStyles>
     )
 }

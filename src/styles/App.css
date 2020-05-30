@@ -51,6 +51,17 @@
   width: 20%;
 }
 
+.supply-logo-image{
+  width: 31%;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+.supply-logo-image:hover{
+  cursor: pointer;
+}
+
+
 .nav-center-items {
   width: 33%;
   display: flex;
@@ -267,7 +278,19 @@
 
 .get-involved-care {
   font-size: 16px;
-   
+    margin-top: 0;
+    line-height: 24px;
     color: #a5b9d0;
     padding-top: 2em;
+}
+
+.supply-container{
+  background: rgba(47,128,237,.05);
+  text-align: center;
+  padding-top: 3em;
+}
+
+.supply-heading{
+  font-weight: 500;
+  font-size: 1.6em;
 }

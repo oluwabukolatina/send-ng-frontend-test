@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepOneContainer } from '../../styles/styled/StepsStyles';
+import { StepOneContainer } from '../../../styles/styled/StepsStyles';
 
 const StepFour = () => {
   return (
