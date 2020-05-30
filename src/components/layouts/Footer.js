@@ -11,10 +11,10 @@ const Footer = () => {
             src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5d0aaf93cfe3203389aaebf9_logo-blue.svg"/>
     
                     {/* </div>               */}
-                    <div>
+                    <p style={{marginTop: '7em'}}>
                     © 2020 Response Inc
 
-                    </div>
+                    </p>
             </div>
             <div className="footer-items">
                     <p className="footer-items-heading">Product</p>
@@ -55,13 +55,13 @@ const Footer = () => {
 
                     <FooterSocialItemStyle>
                     
-                    <img className="footer-socials-icon" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9db94f5a3dab3636c443a5_iconfinder_BW_Linkedin_glyph_svg_5305157.svg" />
+                    <img className="footer-socials-icon" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9db91dd328d88000dc9744_iconfinder_BW_Twitter_glyph_svg_5305170.svg" />
                         <div className="ml-2">Twitter</div>
                         
                     </FooterSocialItemStyle>
 
                     <FooterSocialItemStyle>
-                    <img className="footer-socials-icon" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9db94f5a3dab3636c443a5_iconfinder_BW_Linkedin_glyph_svg_5305157.svg" />
+                    <img className="footer-socials-icon" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9db8fd8a5e0bd40666af9d_iconfinder_Instagram_glyph_svg_5335781.svg"/>
                     
                         <div className="ml-2">Instagram</div>
                         
