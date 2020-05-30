@@ -7,6 +7,8 @@ import HaveSupplies from './HaveSupplies';
 import Partners from './Partners';
 import Millions from './millions/Millions';
 import Footer from './layouts/Footer';
+import GetInvolved from './GetInvolved';
+import HowItWorks from './how/HowItWorks';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <HaveSupplies />
       <Partners />
       <Millions />
+      <HowItWorks/>
+      {/* <GetInvolved/> */}
       <Footer/>
     </div>
   );

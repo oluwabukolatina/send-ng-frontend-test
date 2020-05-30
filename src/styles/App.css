@@ -75,7 +75,6 @@
 
 .cta-container-procuremnt {
   width: 50%;
-  /* background: red; */
 }
 
 .cta-right {
@@ -143,19 +142,58 @@
   border-radius: 10px;
 }
 
-.footer-items{
+.footer-items {
   width: 25%;
   text-align: inherit;
 }
 
-.footer-logo{
+.footer-logo {
   width: 50%;
 }
 
-.footer-items-heading{
+.footer-items-heading {
   margin-bottom: 2.1em;
 }
 
-.footer-socials-icon{
+.footer-socials-icon {
   width: 7%;
+}
+
+.how-it-works-heading {
+  text-align: center;
+  color: #2f80ed;
+}
+
+.step-one-container {
+  width: 50%;
+}
+
+.step-one-heading {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2f80ed;
+  font-size: 14px;
+}
+
+.post-heading {
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+.step-one-need {
+  color: rgb(105, 132, 163);
+  font-size: 23px;
+  line-height: 36px;
+  margin-top: 1.6em;
+}
+.step-one-request{
+  width: 50%;
+}
+
+.step-one-request-image{
+  width: 90%;
+  margin-top: 7%;
+  margin-left: 21%;
 }
