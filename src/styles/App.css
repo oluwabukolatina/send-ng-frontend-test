@@ -142,3 +142,20 @@
   margin-top: 3%;
   border-radius: 10px;
 }
+
+.footer-items{
+  width: 25%;
+  text-align: inherit;
+}
+
+.footer-logo{
+  width: 50%;
+}
+
+.footer-items-heading{
+  margin-bottom: 2.1em;
+}
+
+.footer-socials-icon{
+  width: 10%;
+}
