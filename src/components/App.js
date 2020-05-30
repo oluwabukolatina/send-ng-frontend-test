@@ -1,29 +1,12 @@
 import React from 'react';
-// import './App.css';
-import '../styles/App.css';
-import Navigation from './layouts/Navigation';
-import Cta from './Cta';
-import HaveSupplies from './HaveSupplies';
-import Partners from './Partners';
-import AboutUs from './AboutUs';
-import Millions from './millions/Millions';
-import Footer from './layouts/Footer';
-import GetInvolved from './GetInvolved';
-import HowItWorks from './how/HowItWorks';
+import { Switch, Route } from 'react-router-dom';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="body">
-      <Navigation />
-      <Cta />
-      <HaveSupplies />
-      <Partners />
-      <Millions />
-      <HowItWorks />
-      <AboutUs />
-      <GetInvolved />
-      <Footer />
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
   );
 }
 
