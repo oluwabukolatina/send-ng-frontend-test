@@ -68,3 +68,24 @@
 .nav-center-item {
   color: black
 }
+
+.cta-container {
+  margin-top: 6em;
+  display: flex;
+}
+
+.cta-container-procuremnt {
+  width: 50%;
+  /* background: red; */
+}
+
+.cta-right{
+  width: 50%;
+
+       font-family: 'Varela Round',sans-serif;
+}
+
+.image-right{
+  width: 100%;
+  
+}

@@ -27,15 +27,15 @@ const Navigation = () => {
         
             <div className="nav-right-items text-right">
             <Nav.Item>
-      <Nav.Link href="/home">Login</Nav.Link>
+      <Nav.Link href="/home" style={{color: 'black'}}>Login</Nav.Link>
     </Nav.Item>
     <Nav.Item>
                     {/* <Nav.Link eventKey="link-1">Link</Nav.Link> */}
-                    <Button style={{backgroundColor:'#ff5a5a'}}>Request</Button>
+                    <Button style={{backgroundColor:'#ff5a5a', border: 'none'}}>Request</Button>
                     
     </Nav.Item>
                 <Nav.Item>
-                    <Button style={{backgroundColor:'#2f80ed'}}>Supply</Button>
+                    <Button style={{backgroundColor:'#2f80ed', border: 'none'}}>Supply</Button>
       {/* <Nav.Link eventKey="link-2" style={{backgroundColor:'#2f80ed'}}>Link</Nav.Link> */}
     </Nav.Item>
           </div>
