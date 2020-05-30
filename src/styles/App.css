@@ -93,3 +93,19 @@
   margin-left: 1em;
   margin-right: 1em;
 }
+
+.partner{
+  filter: contrast(0.5);
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 7%;
+}
+
+.partners-text{
+  color: #a5b9d0;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+}
