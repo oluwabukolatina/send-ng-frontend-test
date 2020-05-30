@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import Cta from './Cta';
 import HaveSupplies from './HaveSupplies';
 import Partners from './Partners';
+import Millions from './millions/Millions';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Navigation />
       <Cta />
       <HaveSupplies />
-      <Partners/>
+      <Partners />
+      <Millions/>
     </div>
   );
 }
