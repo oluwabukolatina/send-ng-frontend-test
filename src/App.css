@@ -32,7 +32,39 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.body {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  width: 33%;
+}
+
+.logo-image {
+  width: 20%;
+}
+
+.nav-center-items {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-right-items {
+  width: 34%;
+  display: flex;
+  justify-content: right;
+  justify-content: flex-end;
+}
+
+.nav-center-item {
+  color: black
 }
