@@ -162,6 +162,8 @@
 .how-it-works-heading {
   text-align: center;
   color: #2f80ed;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .step-one-container {
@@ -230,7 +232,42 @@
 
 .about-more {
   font-weight: 500;
-    line-height: 1em;
-    font-size: 23px;
-    padding-top: 3%;
+  line-height: 1em;
+  font-size: 23px;
+  padding-top: 3%;
+  color: #2f80ed;
+}
+
+.get-involved-sign-up {
+  width: 17%;
+  height: 56px;
+  border: 2px solid #2f80ed;
+  margin-bottom: 0;
+  padding: 8px 16px;
+  border-radius: 4px 0 0 4px;
+  background-color: transparent;
+}
+
+.get-involved-sign-up-button {
+  width: 7%;
+  margin-left: -2px;
+  height: 56px;
+  background-color: #3898EC;
+  border: 3px solid #3898EC;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.get-involved-join {
+  margin-bottom: 32px;
+  color: #6984a3;
+  font-size: 19px;
+  line-height: 5em;
+}
+
+.get-involved-care {
+  font-size: 16px;
+   
+    color: #a5b9d0;
+    padding-top: 2em;
 }

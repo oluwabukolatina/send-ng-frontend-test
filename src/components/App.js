@@ -20,9 +20,9 @@ function App() {
       <Partners />
       <Millions />
       <HowItWorks />
-      <AboutUs/>
-      {/* <GetInvolved/> */}
-      <Footer/>
+      <AboutUs />
+      <GetInvolved />
+      <Footer />
     </div>
   );
 }
