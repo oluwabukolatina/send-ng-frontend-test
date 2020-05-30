@@ -28,6 +28,8 @@ background: #ff5a5a;
     font-weight: 600;
     letter-spacing: .5px;
     border: none;
+    border-radius: 8px;
+
     `
 
 export const QuestionsStyles = styled.p`

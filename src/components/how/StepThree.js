@@ -1,31 +1,30 @@
 import React from 'react';
 import { StepOneContainer } from '../../styles/StepsStyles';
 
-const StepOne = () => {
+const StepThree = () => {
     return (
         <StepOneContainer>
             <div className="step-one-container">
                 {/* <p className="millions-heading"> */}
             <h5 className="step-one-heading">
-                    Step One
+                    Step Three
             </h5>
                     {/* </p> */}
                  
                 <h1 className="post-heading">
-                Post compliant requests 
-                in minutes
+                Pick the best offer
 
                     </h1>
 <p className="step-one-need">
-                    Tell us what you need and Response uses your terms to generate all the necessary paperwork.
-                     </p>
+We automatically collect and score the best offers based on quality, lead time, and price.
+</p>
                 </div>
-            <div className="step-one-request">
-                <img className="step-one-request-image" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9d9311d328d86318db3303_request_simple.svg"/>
+            <div className="step-two-request">
+                <img className="step-two-request-image" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5e9d92f4c0385a5a0fa4c828_compare.svg"/>
                  
         </div>
         </StepOneContainer>
     )
 }
 
-export default StepOne;
+export default StepThree;

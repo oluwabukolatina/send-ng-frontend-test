@@ -188,12 +188,31 @@
   line-height: 36px;
   margin-top: 1.6em;
 }
-.step-one-request{
+
+.step-one-request {
   width: 50%;
 }
 
-.step-one-request-image{
+.step-two-request {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.step-one-request-image {
   width: 90%;
   margin-top: 7%;
   margin-left: 21%;
+}
+
+.step-two-request-image {
+  width: 87%;
+  /* margin-top: 7%; */
+  /* margin-left: 21%; */
+}
+
+.how-request-container{
+  margin-top: 8%;
+  text-align: center;
+  /* &:hover{} */
 }
