@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Navigation = ({ history }) => {
   return (
     <Nav
-      className="nav mt-3"
+      className="nav"
       style={{ borderBottom: '1px solid #fff', paddingBottom: '1em' }}
     >
       <Nav.Item className="logo">

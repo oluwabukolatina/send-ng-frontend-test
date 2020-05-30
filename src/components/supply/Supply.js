@@ -1,8 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Navigation from './Navigation';
 import { Container, SignUpStyles } from '../../styles/styled/SupplyStyles';
+import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const Supply = () => {
+const Supply = ({ history }) => {
   return (
     <div className="supply-body">
       <Navigation />
@@ -22,11 +24,19 @@ const Supply = () => {
           </SignUpStyles>
         </Container>
         <div className="supply-button-container">
-          <button className="supply-button">Start</button>
+          <button
+            className="supply-button"
+            onClick={() => history.push('/request')}
+          >
+            Start
+          </button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Supply;
+Supply.propType = {
+  history: PropTypes.shape(),
+};
+export default withRouter(Supply);
