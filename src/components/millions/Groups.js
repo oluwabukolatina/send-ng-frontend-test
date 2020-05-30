@@ -1,5 +1,5 @@
 import React from 'react';
-import { GroupsContainerStyles, GroupImageStyles } from '../../styles/GroupsStyles';
+import { GroupsContainerStyles, GroupImageStyles } from '../../styles/styled/GroupsStyles';
 
 const Groups = () => {
     return (

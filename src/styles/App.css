@@ -211,8 +211,26 @@
   /* margin-left: 21%; */
 }
 
-.how-request-container{
+.how-request-container {
   margin-top: 8%;
   text-align: center;
   /* &:hover{} */
+}
+
+.about-container {
+  padding-bottom: 3em;
+  width: 82%;
+  margin: auto;
+  border-radius: 22px;
+  margin-top: 5em;
+  background-color: rgba(47, 128, 237, .1);
+  padding-top: 3em;
+  padding-left: 3em;
+}
+
+.about-more {
+  font-weight: 500;
+    line-height: 1em;
+    font-size: 23px;
+    padding-top: 3%;
 }

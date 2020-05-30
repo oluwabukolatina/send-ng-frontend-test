@@ -1,5 +1,5 @@
 import React from 'react';
-import { HaveSuppliesContainerStyles, QuestionStyles, HaveSuppliesSupplyEquipmentStyles } from '../styles/SuppliesStyles';
+import { HaveSuppliesContainerStyles, QuestionStyles, HaveSuppliesSupplyEquipmentStyles } from '../styles/styled/SuppliesStyles';
 
 const HaveSupplies = () => {
     return (

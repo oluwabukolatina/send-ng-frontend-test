@@ -1,5 +1,5 @@
 import React from 'react';
-import { PartnerContainerStyles } from '../styles/PartnersStyles';
+import { PartnerContainerStyles } from '../styles/styled/PartnersStyles';
 
 const Partners = () => {
     return (

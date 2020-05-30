@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container} from 'react-bootstrap'
 import Procurement from './Procurement';
-import { QuantityStyles, NeededByStyles, LocationStyles } from '../styles/CtaStyles';
+import { QuantityStyles, NeededByStyles, LocationStyles } from '../styles/styled/CtaStyles';
 
 const Cta = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MillionsContainerStyles } from '../../styles/MillionsStyles';
+import { MillionsContainerStyles } from '../../styles/styled/MillionsStyles';
 import Groups from './Groups';
 
 const Millions = () => {

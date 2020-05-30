@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProcurementSourcing, ConnectStyles, RequestButtonStyles, QuestionsStyles } from '../styles/ProcurementStyles';
+import { ProcurementSourcing, ConnectStyles, RequestButtonStyles, QuestionsStyles } from '../styles/styled/ProcurementStyles';
 
 const Procurement = () => {
     return (

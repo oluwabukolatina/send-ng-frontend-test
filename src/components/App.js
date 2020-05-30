@@ -5,6 +5,7 @@ import Navigation from './layouts/Navigation';
 import Cta from './Cta';
 import HaveSupplies from './HaveSupplies';
 import Partners from './Partners';
+import AboutUs from './AboutUs';
 import Millions from './millions/Millions';
 import Footer from './layouts/Footer';
 import GetInvolved from './GetInvolved';
@@ -18,7 +19,8 @@ function App() {
       <HaveSupplies />
       <Partners />
       <Millions />
-      <HowItWorks/>
+      <HowItWorks />
+      <AboutUs/>
       {/* <GetInvolved/> */}
       <Footer/>
     </div>
