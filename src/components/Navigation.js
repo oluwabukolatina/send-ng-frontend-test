@@ -5,7 +5,7 @@ import {Nav, Image, Button} from 'react-bootstrap';
 const Navigation = () => {
     return (
       
-    <Nav className="mt-3" activeKey="/home">
+    <Nav className="nav mt-3" activeKey="/home">
             <Nav.Item className="logo">
                 <Image className="logo-image" src="https://uploads-ssl.webflow.com/5a7269a5582f52000102d51d/5d0aaf93cfe3203389aaebf9_logo-blue.svg"></Image>
       {/* <Nav.Link href="/home">Active</Nav.Link> */}
