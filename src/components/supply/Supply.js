@@ -4,7 +4,7 @@ import { Container, SignUpStyles } from '../../styles/styled/SupplyStyles';
 
 const Supply = () => {
   return (
-    <Fragment>
+    <div className="supply-body">
       <Navigation />
       <div className="supply-container">
         <h2 className="how-it-works-heading">Welcome</h2>
@@ -21,8 +21,11 @@ const Supply = () => {
             start bidding.
           </SignUpStyles>
         </Container>
+        <div className="supply-button-container">
+          <button className="supply-button">Start</button>
+        </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

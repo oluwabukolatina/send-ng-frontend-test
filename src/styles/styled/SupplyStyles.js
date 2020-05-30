@@ -12,6 +12,7 @@ export const SignUpStyles = styled.div`
   background-color: #fff;
   border: 2px solid #eaf2fd;
   box-shadow: 4px 4px 12px 0 #eaf2fd;
+  margin-left: 3em;
   padding-bottom: 5em;
   padding-top: 4em;
   width: 50%;
